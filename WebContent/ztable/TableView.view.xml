@@ -1,0 +1,43 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="ztable.TableView" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	        <Table>
+	          <columns>
+	             <Column>
+	                 <header>
+	                     <Text text="Columns1"/>
+	                 </header>
+	             </Column>
+	             <Column>
+	                 <header>
+	                     <Text text="Columns2"/>
+	                 </header>
+	             </Column>
+	              <Column>
+	                 <header>
+	                     <Text text="Columns3"/>
+	                 </header>
+	             </Column>
+	          </columns>
+	          <items>
+	             <ColumnListItem>
+	                <cells>
+	                   <Text text="c11"/>
+	                   <Input value="c21"/>
+	                   <Button text="C31"/>
+	                </cells>
+	             </ColumnListItem>
+	             
+	             <ColumnListItem>
+	                <cells>
+	                   <Text text="c12"/>
+	                   <Input value="c22"/>
+	                   <Button text="C32"/>
+	                </cells>
+	             </ColumnListItem>
+	          </items>
+	        </Table>
+		</content>
+	</Page>
+</core:View>
